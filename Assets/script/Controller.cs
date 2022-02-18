@@ -234,7 +234,7 @@ public class Controller : MonoBehaviour
                 yield return new WaitForSeconds(1f);
                 if (apiform.raisePrice == 0)
                 {
-                    StartCoroutine(resultAlert("You lose..."));
+                    StartCoroutine(resultAlert("Better luck next time!"));
                 }
                 else
                 {
